@@ -1,0 +1,75 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.47714180536651574 0.7370905109767388 0.4785742117996247 1.8612934926037952
+  position 1.261196505153295 2.9168307717397335 0.0484736673095829
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+Wall {
+  translation 0.313624 0 0.0043963
+  rotation 0 1 0 -1.571595307179586
+  name "wall(5)"
+  size 0.4 0.1 0.01
+}
+Wall {
+  translation 0.261535 0 0.206277
+  rotation 0 -1 0 0.000794839
+  name "wall(6)"
+  size 0.4 0.1 0.01
+}
+Wall {
+  translation -0.128463 0 0.325566
+  rotation 0 -1 0 1.57159
+  name "wall(4)"
+  size 0.8 0.1 0.01
+}
+Wall {
+  translation 0.769885 0 0.140672
+  rotation 0 -1 0 -1.5700053071795859
+  name "wall(3)"
+  size 1.16 0.1 0.01
+}
+Wall {
+  translation 0.280349 0 -0.43972
+  rotation 0 1 0 3.1408
+  name "wall(2)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation 0.27907 0 1.16028
+  rotation 0 1 0 3.1408
+  name "wall(1)"
+  size 1 0.1 0.01
+}
+E-puck {
+  translation -0.825461 -6.59134e-05 -0.130271
+  rotation -6.842249978881488e-05 -0.9999999969135136 -3.8617799880806684e-05 -0.06822530717958664
+  controller "my_controller"
+  groundSensorsSlot [
+    Compass {
+    }
+    InertialUnit {
+      resolution 1e-05
+    }
+    GPS {
+    }
+  ]
+}
+Wall {
+  translation -0.352084 0 -0.183843
+  rotation 0 -1 0 2.09519
+  size 0.6 0.1 0.01
+}
+YoubotFlag {
+  translation 0.519998 3.48178e-09 0.02
+  rotation 2.48201e-09 1 9.26303e-09 3.14159
+}
